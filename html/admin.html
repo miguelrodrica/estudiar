@@ -23,7 +23,7 @@
                 <ul class="nav flex-column my-4 gap-2">
                     <li class="nav-item">
                         <a class="nav-link text-white" href="#createProduct">
-                            <i class="bi bi-plus-circle"></i> Crear Producto
+                            <i class="bi bi-plus-circle"></i> Gestionar Productos
                         </a>
                     </li>
                     <li class="nav-item">
@@ -39,7 +39,7 @@
             <main class="col-12 col-md-9 col-lg-10 p-4">
                 <!--Crear producto-->
                 <section id="createProduct" class="mb-5">
-                    <h3 class="mb-3">Crear Producto</h3>
+                    <h3 class="mb-3">Gestionar Producto</h3>
                     <!--Card-->
                     <div class="card shadow-sm">
                         <div class="card-body">
@@ -82,8 +82,22 @@
                 <!-- Listas productos creados -->
                 <section id="listProducts">
                     <h3 class="mb-3">Listado de Productos</h3>
-                    <div class="row" id="productList">
-                        <!-- Espacio para los productos desde JS -->
+                    <div class="table-responsive">
+                        <table class="table table-bordered table-hover align-middle">
+                            <thead class="table-success">
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Nombre</th>
+                                    <th>Precio</th>
+                                    <th>Categoría</th>
+                                    <th>Stock</th>
+                                    <th>Acciones</th>
+                                </tr>
+                            </thead>
+                            <tbody id="productList">
+                                <!-- Filas desde JS -->
+                            </tbody>
+                        </table>
                     </div>
                 </section>
             </main>
