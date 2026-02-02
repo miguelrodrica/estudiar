@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Miguel",
+      "email": "admin@mail.com",
+      "password": "1234",
+      "role": "admin"
+    },
+    {
+      "id": "2",
+      "name": "Sergio Rodriguez",
+      "email": "sergio@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "b56f",
+      "name": "Miguel Rodrica",
+      "email": "miguel@mail.com",
+      "password": "1234",
+      "role": "user"
+    },
+    {
+      "id": "3bbd",
+      "name": "Doris Cano",
+      "email": "doris@gmail.com",
+      "password": "1234",
+      "role": "user"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Classic Beef Burger",
+      "price": 8.99,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
+      "image": "https://searafoodsme.com/wp-content/uploads/2022/04/Beef-Burger1080x720px.jpg",
+      "category": "Burger",
+      "stock": 10
+    },
+    {
+      "id": "2",
+      "name": "Double Bacon Melt",
+      "price": 12.5,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
+      "image": "https://i.pinimg.com/736x/b2/e3/d8/b2e3d8f223e21d354c660bab9061d9af.jpg",
+      "category": "Burger",
+      "stock": 10
+    },
+    {
+      "id": "3",
+      "name": "Golden Fries",
+      "price": 3.99,
+      "description": "Lorem ipsum dolor sit, amet consectetur adipisicing elet.",
+      "image": "https://thumbs.dreamstime.com/b/crispy-golden-french-fries-mountain-deliciousness-vibrant-yellow-background-perfect-fast-food-indulge-visual-feast-373539340.jpg",
+      "category": "Burger",
+      "stock": 10
+    },
+    {
+      "id": "4",
+      "name": "Pizza Ranchera",
+      "price": "18000",
+      "description": "Deliciosa pizza ranchera con el mejor sabor BBQ",
+      "image": "https://www.laespanolaaceites.com/wp-content/uploads/2019/06/pizza-con-chorizo-jamon-y-queso-1080x671.jpg",
+      "category": "Pizzas",
+      "stock": "15"
+    }
+  ]
+}
